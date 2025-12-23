@@ -9,7 +9,7 @@
   - `Microsoft.EntityFrameworkCore.InMemory (8.0.0)`
   - `Swashbuckle.AspNetCore (6.6.2)`
 
-> The API uses an **EF Core InMemory** database. No external DB setup is required.
+> The API uses an **EF Core InMemory** database.
 
 ### Seeded demo data
 On startup, the app seeds the in-memory database via `SeedData.Initialize(...)` It creates:
