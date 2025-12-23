@@ -31,6 +31,9 @@ On startup, the app seeds the in-memory database via `SeedData.Initialize(...)` 
 - Reservation `Id=2`: Desk `1`, User `2`, **in 2 days** 10:00–12:00 (UTC)
 - Reservation `Id=3`: Desk `2`, User `2`, **past** (from 5 days ago to 2 days ago, UTC)
 
+- ### FrontEnd (`desks-web`)
+- React + TypeScript + Bootstrap library
+
 ## How to run
 
 ### Backend (`desks-api`)
@@ -40,6 +43,6 @@ On startup, the app seeds the in-memory database via `SeedData.Initialize(...)` 
 ### Frontend (`desks-web`)
 1. Open a terminal in the `desks-web` folder.
 2. Restore packages and run the API:
-   npm i
-   npm run dev
+   - npm i
+   - npm run dev
 
